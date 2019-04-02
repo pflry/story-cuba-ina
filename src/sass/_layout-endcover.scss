@@ -1,0 +1,37 @@
+//
+// AMP Story -- Layout Endcover
+// --------------------------------------------------
+
+/* logo */
+#endcover .amp-logo-holder {
+    @extend %pos-absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    visibility: visible;
+}
+
+/* content */
+#endcover .layer-content__inner {
+    align-content: flex-end;
+    left: 50%;
+    padding: 1.5em 1.125em 3em 0;
+}
+
+.amp-endcover__content .amp-contexte--content {
+    font-size: 0.5em;
+    font-weight: 300;
+    padding-bottom: 0.25em;
+    position: relative;
+
+    p {
+        margin-top: 1em;
+    }
+
+    .copyright {
+        bottom: -2em;
+        font-size: 0.65em;
+        position: absolute;
+    }
+}

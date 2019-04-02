@@ -1,0 +1,65 @@
+//
+// AMP Story -- Layout Cover
+// --------------------------------------------------
+
+
+/* Layer content */
+#cover .layer-content__inner {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+#cover .layer-foreground__inner {
+    justify-content: space-between;
+}
+
+
+/* Headline */
+.amp-cover {
+    width: 100%;
+}
+
+// Titres
+.amp-cover__headline {
+    font-size: 1.4em;
+    font-weight: 900;
+    line-height: 1.125;
+}
+
+.headline-left--text,
+.headline-right--text {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.headline-left--line,
+.headline-right--line {
+    border-bottom: solid 2px $color-primary;
+    display: block;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+// titre left
+.amp-cover__headline .headline-left {
+    display: inline-block;
+}
+
+.headline-left--text {
+    padding-left: 15vw;
+}
+
+.headline-left--line {
+    animation-name: fromLeft;
+}
+
+// titre right
+.amp-cover__headline .headline-right {
+    padding-left: 15vw;
+}
+
+.headline-right--line {
+    animation-name: fromRight;
+}

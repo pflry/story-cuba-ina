@@ -1,0 +1,23 @@
+{
+    "tpl-page-cover": true,
+    
+    "headline": {
+        "left": "L'épopée",
+        "right": "du Concorde"
+    },
+
+    "credits": "Air France",
+
+    "img": {
+        "alt": "Concorde",
+        "copy": "Air France",
+        "css": {
+            "overlay-bottom": false,
+            "overlay-top": false,
+            "overlay-up-down": false,
+            "overlay-full": false,
+            "overlay-full-dark": false,
+            "overlay-full-light": false
+        }
+    }
+}

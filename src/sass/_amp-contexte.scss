@@ -1,0 +1,18 @@
+//
+// AMP Story -- Contexte
+// --------------------------------------------------
+
+.amp-contexte--content {
+    border-bottom: solid 2px $color-border;
+    font-size: $font-size-base;
+    font-weight: 400;
+    
+    .left & {
+        margin-right: -1.125em;
+    }
+
+    .right & {
+        margin-left: -1.125em;
+        text-align: right;
+    }
+}

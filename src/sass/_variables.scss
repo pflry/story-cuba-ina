@@ -1,0 +1,37 @@
+//
+// AMP Story -- Variables
+// --------------------------------------------------
+
+/* Colors zone */
+
+// Base colors
+$white: #ffffff;
+$black: #080b0e;
+$gray:  #bdc3c7;
+
+// Semantic colors
+$color-primary:     #e8f00f;
+$color-secondary:   #ff4100;
+$color-ina:         #0086b1;
+$color-text:        $white;
+$color-background:  $black;
+$color-border:      $color-primary;
+
+// Social colors
+$facebook-color:    #3b5998;
+$google-plus-color: #dd4b39;
+$linkedin-color:    #0077b5;
+
+
+/* Fonts zone */
+
+// Font families
+$font-family-base: ('Lato', sans-serif);
+
+// Font sizes
+$font-size-lg: 1.225em;
+$font-size-sm: 0.875em;
+$font-size-base: 7.5vw;;
+
+// Line heights
+$line-height-base: 1.35;

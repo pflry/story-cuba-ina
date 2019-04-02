@@ -1,0 +1,12 @@
+<amp-video id="{{audio.id}}" autoplay
+    width="0.56"
+    height="1"
+    layout="fill"
+    poster="assets/audios/{{{audio.folder}}}/poster.jpg">
+    <source type="audio/ogg" src="assets/audios/{{{audio.folder}}}/audio.ogg">
+    <source type="audio/mpeg" src="assets/audios/{{{audio.folder}}}/audio.mp3">
+    <track src="assets/audios/{{{audio.folder}}}/subtitles.vtt" srclang="fr" default>
+    <div fallback>
+        <p>Votre navigateur ne supporte pas ce format audio.</p>
+    </div>
+</amp-video>

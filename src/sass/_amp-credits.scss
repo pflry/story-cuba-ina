@@ -1,0 +1,38 @@
+//
+// AMP Story -- Crédits médias
+// --------------------------------------------------
+
+.amp-page-credits {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -0.5em;
+    text-align: right;
+
+    p {
+        flex-grow: 1;
+        font-size: 0.75rem;
+        margin-right: -0.75em;
+    }
+
+    &:before {
+        background-image: linear-gradient(180deg, transparent, rgba($black, 0.8));
+        bottom: -1em;
+        content: '';
+        display: block;
+        height: 3em;
+        left: -1.25em;
+        position: absolute;
+        right: -1.25em;
+        z-index: -1;
+    }
+
+    &:after {
+        border-right: solid 4px $color-primary;
+        content: '';
+        display: block;
+        height: 4px;
+        position: relative;
+        transform: translate(0.5em, 0.05em);
+    }
+}

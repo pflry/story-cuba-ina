@@ -1,0 +1,59 @@
+{
+    "page-id": "1",
+    "tpl-page-full": true,
+
+    "auto-advance": false,
+    "auto-advance-value": "",
+
+    "credits": "The Obama White House",
+
+    "amp-img-background": true,
+        "img": {
+            "name": "obama-inaugural",
+            "alt": "Barack Obama",
+            "copy": "The Obama White House",
+            "css": {
+                "blur": true,
+                "blur-out": false,
+                "zoom-in": false,
+                "overlay-bottom": false,
+                "overlay-top": false,
+                "overlay-up-down": false,
+                "overlay-full": false,
+                "overlay-full-dark": false,
+                "overlay-full-light": true
+            }
+        },
+
+    "amp-video-background": false,
+    "video": {
+        "id": "",
+        "folder": "",
+        "noaudio": false,
+        "loop": false
+    },
+
+    "amp-audio-background": false,
+        "audio": {
+            "id": "",
+            "folder": ""
+        },
+
+
+    "amp-bigtext": true,
+        "bigtext": "21 janvier 2009",
+
+    "amp-citation": false,
+        "citation": "",
+        "citation-align": {
+            "left": true,
+            "right": false
+        },
+
+    "amp-contexte": true,
+        "contexte": "Barack Obama<br>devient le <b>premier<br>président<br>afro-américain</b><br>des États-Unis",
+        "contexte-align": {
+            "left": false,
+            "right": true
+        }
+}

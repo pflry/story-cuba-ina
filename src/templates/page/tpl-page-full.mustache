@@ -1,0 +1,48 @@
+<!-- Page {{page-id}} -->
+<amp-story-page id="page{{page-id}}" class="amp-story-page amp-story-page__full" {{#auto-advance}}auto-advance-after="{{auto-advance-value}}"{{/auto-advance}}>
+    
+    <amp-story-grid-layer template="fill" class="layer-background">
+        {{#amp-video-background}}
+            {{> ../media/tpl-video-full }}
+        {{/amp-video-background}}
+        {{#amp-img-background}}
+            {{> ../media/tpl-image-full }}
+        {{/amp-img-background}}
+        {{#amp-audio-background}}
+            {{> ../media/tpl-audio-full }}
+        {{/amp-audio-background}}
+    </amp-story-grid-layer>
+
+    <amp-story-grid-layer template="vertical" class="layer-content">
+        <div class="layer-content__inner">
+
+            {{#amp-bigtext}}
+            <div class="amp-big-text">
+                <div class="amp-big-text--content">{{bigtext}}</div>
+            </div>
+            {{/amp-bigtext}}
+
+            {{#amp-citation}}
+            <div class="amp-citation {{#citation-align.left}}left{{/citation-align.left}}{{#citation-align.right}}right{{/citation-align.right}}">
+                <div class="amp-citation--content">{{{citation}}}</div>
+            </div>
+            {{/amp-citation}}
+
+            {{#amp-contexte}}
+            <div class="amp-contexte {{#contexte-align.left}}left{{/contexte-align.left}}{{#contexte-align.right}}right{{/contexte-align.right}}">
+                <div class="amp-contexte--content">{{{contexte}}}</div>
+            </div>
+            {{/amp-contexte}}
+
+        </div>
+    </amp-story-grid-layer>
+
+    <amp-story-grid-layer template="vertical" class="layer-foreground">
+        <div class="layer-foreground__inner">
+            <div class="amp-page-credits">
+                <p>{{{credits}}}</p>
+            </div>
+        </div>
+    </amp-story-grid-layer>
+    
+</amp-story-page>

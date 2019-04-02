@@ -1,0 +1,39 @@
+{
+  "name": "story-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://paul_fleury@bitbucket.org/paul_fleury/story-concorde.git"
+  },
+  "keywords": [
+    "AMP",
+    "story",
+    "Ina"
+  ],
+  "author": "PFLRY",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/paul_fleury/story-concorde#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-mustache": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sequence": "^1.0.0",
+    "gulp-shell": "^0.6.5",
+    "gulp-webp": "^3.0.0",
+    "imagemin-mozjpeg": "^8.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "tpl-page-endcover": true,
+    
+    "img": {
+        "name": "endcover",
+        "alt": "Barack Obama",
+        "copy": "The Obama White House",
+        "css": {
+            "overlay-full": false,
+            "overlay-full-dark": true,
+            "overlay-full-light": false
+        }
+    },
+
+    "contexte": {
+        "title": "Barack Obama<br>son bilan en 10 dates clés",
+        "realisation": "Rédaction ina.fr",
+        "copyright": "INA 2019"
+    }, 
+        "contexte-align": {
+            "left": true,
+            "right": false
+        }
+}

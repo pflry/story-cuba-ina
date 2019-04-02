@@ -1,0 +1,59 @@
+//
+// AMP Story -- Blockquote
+// --------------------------------------------------
+
+.amp-quote__quote {
+    font-style: italic;
+}
+
+.amp-quote__line-wrapper {
+    line-height: 0;
+    padding: 0.625em 0;
+}
+
+.amp-quote__line {
+    border-top: solid 0.125em $white;
+    display: inline-block;
+    opacity: 0.5;
+    width: 2.5em;
+}
+
+.amp-quote__description {
+    font-size: $font-size-base;
+    opacity: 0.75;
+}
+
+.justify-center .amp-quote__inner {
+    border-bottom: solid 0.0625em $white;
+    border-left: solid 0.0625em $white;
+    border-right: solid 0.0625em $white;
+    padding: 1.875em;
+}
+
+.justify-center .amp-quote__icon {
+    max-height: 32px;
+    transform: translateY(28%);
+}
+
+.justify-center .amp-quote__icon amp-img {
+    position: relative;
+    width: 100%;
+
+    &:after,
+    &:before {
+        border-top: solid 0.0625em $color-border;
+        content: '';
+        display: block;
+        height: 0.0625em;
+        left: 0;
+        min-height: 1px;
+        position: absolute;
+        top: 1.45em;
+        width: 35%;
+    }
+
+    &:after {
+        left: auto;
+        right: 0;
+    }
+}
