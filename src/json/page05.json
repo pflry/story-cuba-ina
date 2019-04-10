@@ -1,0 +1,59 @@
+{
+    "page-id": "6",
+    "tpl-page-full": true,
+
+    "auto-advance": false,
+    "auto-advance-value": "",
+
+    "credits": "Ina",
+
+    "amp-img-background": true,
+        "img": {
+            "name": "cuba-MGAFE0004508--AP-4",
+            "alt": "Fidel Castro",
+            "copy": "Ina",
+            "css": {
+                "blur": false,
+                "blur-out": false,
+                "zoom-in": false,
+                "overlay-bottom": false,
+                "overlay-top": false,
+                "overlay-up-down": false,
+                "overlay-full": true,
+                "overlay-full-dark": false,
+                "overlay-full-light": false
+            }
+        },
+
+    "amp-video-background": false,
+    "video": {
+        "id": "",
+        "folder": "",
+        "noaudio": false,
+        "loop": false
+    },
+
+    "amp-audio-background": false,
+        "audio": {
+            "id": "",
+            "folder": ""
+        },
+
+
+    "amp-bigtext": true,
+        "bigtext": "1960's",
+
+    "amp-citation": false,
+        "citation": "",
+        "citation-align": {
+            "left": true,
+            "right": false
+        },
+
+    "amp-contexte": true,
+        "contexte": "<strong>Fidel Castro</strong><br>prend goût au pouvoir,<br>les <strong>élections</strong> prévues<br>n'auront <strong>jamais lieu</strong>.",
+        "contexte-align": {
+            "left": true,
+            "right": false
+        }
+}
