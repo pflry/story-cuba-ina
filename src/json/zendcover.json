@@ -3,8 +3,8 @@
     
     "img": {
         "name": "endcover",
-        "alt": "Barack Obama",
-        "copy": "The Obama White House",
+        "alt": "Fidel Castro",
+        "copy": "",
         "css": {
             "overlay-full": false,
             "overlay-full-dark": true,
@@ -13,7 +13,7 @@
     },
 
     "contexte": {
-        "title": "Barack Obama<br>son bilan en 10 dates clés",
+        "title": "La Révolution cubaine",
         "realisation": "Rédaction ina.fr",
         "copyright": "INA 2019"
     }, 

@@ -1,5 +1,5 @@
 {
-  "name": "story-base",
+  "name": "story-cuba",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://paul_fleury@bitbucket.org/paul_fleury/story-concorde.git"
+    "url": "git+https://paul_fleury@bitbucket.org/paul_fleury/story-cuba.git"
   },
   "keywords": [
     "AMP",
@@ -17,7 +17,7 @@
   ],
   "author": "PFLRY",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/paul_fleury/story-concorde#readme",
+  "homepage": "https://bitbucket.org/paul_fleury/story-cuba#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",

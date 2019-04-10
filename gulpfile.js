@@ -19,8 +19,8 @@ const gulp = require('gulp'),
 
 
 //-- Constantes
-const flag = 'story-concorde';
-const storyTitle = 'L\'épopée de Concorde';
+const flag = 'story-cuba';
+const storyTitle = 'La Révolution cubaine';
 const absoluteURL = 'https://stories.pflry.eu/' + flag + '/';
 
 //-- Path
@@ -64,17 +64,17 @@ gulp.task('images:jpg', () => {
 gulp.task('audios', shell.task(['FOR %A IN ("medias-src/audios/*.wav") DO bash create-audios.sh medias-src/audios/%A src/assets/audios/%~NA']));
 
 // copy posters
-gulp.task('copy:posters', shell.task(['FOR %A IN ("medias-src/audios/*.wav") DO COPY /B /Y %CD%\\src\\assets\\images\\%~NA.jpg %CD%\\src\\assets\\audios\\%~NA\\poster.jpg']));
+gulp.task('posters:copy', shell.task(['FOR %A IN ("medias-src/audios/*.wav") DO COPY /B /Y %CD%\\src\\assets\\images\\%~NA.jpg %CD%\\src\\assets\\audios\\%~NA\\poster.jpg']));
 
 // audio together
-gulp.task('convert:audios', sequence('audios', 'copy:posters'));
+gulp.task('audios:convert', sequence('audios', 'posters:copy'));
 
 
 //-- Videos
 
 // normalize + convert to mp4/webm
 // + create poster + create file subtitles.vtt
-gulp.task('convert:videos', shell.task(['FOR %A IN ("medias-src/videos/*.avi") DO bash create-videos.sh medias-src/videos/%A src/assets/videos/%~NA']));
+gulp.task('videos:convert', shell.task(['FOR %A IN ("medias-src/videos/*.avi") DO bash create-videos.sh medias-src/videos/%A src/assets/videos/%~NA']));
 
 
 
@@ -82,7 +82,7 @@ gulp.task('convert:videos', shell.task(['FOR %A IN ("medias-src/videos/*.avi") D
 //-------------
 
 //-- Create mustache partials from jsons task
-gulp.task('clean:partials', () => {
+gulp.task('partials:clean', () => {
     return gulp.src(path.partials, {
             read: false
         })
@@ -160,35 +160,35 @@ function kopy(valsrc, valdest) {
         .pipe(gulp.dest(valdest))
 };
 
-//-- copy:bookend task
-gulp.task('copy:bookend', () => {
+//-- bookend:copy task
+gulp.task('bookend:copy', () => {
     kopy(path.src + 'bookend.json', path.dev);
 });
 
-//-- copy:favicon task
-gulp.task('copy:favicon', () => {
+//-- favicon:copy task
+gulp.task('favicon:copy', () => {
     kopy('favicon.ico', path.dev);
 });
 
-//-- copy:icons task
-gulp.task('copy:icons', () => {
+//-- icons:copy task
+gulp.task('icons:copy', () => {
     kopy(path.src + path.icons + '*.*', path.dev + path.icons);
 });
 
-//-- copy:videos task
-gulp.task('copy:videos', () => {
+//-- videos:copy task
+gulp.task('videos:copy', () => {
     kopy(path.src + path.videos + '/**/*.*', path.dev + path.videos);
 });
 
-//-- copy:audios task
-gulp.task('copy:audios', () => {
+//-- audios:copy task
+gulp.task('audios:copy', () => {
     kopy(path.src + path.audios + '/**/*.*', path.dev + path.audios);
 });
 
-//-- copy:images
+//-- images:copy
 
 // contert jpg to webp + copy
-gulp.task('copy:webp', () => {
+gulp.task('webp:copy', () => {
     gulp.src(path.src + path.images + '*.jpg')
         .pipe(webp({
             quality: 60,
@@ -198,16 +198,16 @@ gulp.task('copy:webp', () => {
         .pipe(gulp.dest(path.dev + path.images));
 })
 
-gulp.task('copy:jpg', () => {
+gulp.task('jpg:copy', () => {
     kopy(path.src + path.images + '*.jpg', path.dev + path.images);
 });
 
 // together images
-gulp.task('copy:images', sequence('copy:jpg', 'copy:webp'));
+gulp.task('images:copy', sequence('jpg:copy', 'webp:copy'));
 
 
 //-- Clean task dev (delete build folder)
-gulp.task('clean:dev', function () {
+gulp.task('dev:clean', function () {
     return gulp.src('./build/', {
             read: false
         })
@@ -239,14 +239,14 @@ gulp.task('urls', function () {
 });
 
 //-- Copy assets prod
-gulp.task('copy:prod', () => {
+gulp.task('prod:copy', () => {
     kopy(path.dev + 'bookend.json', path.prod);
     kopy(path.dev + 'favicon.ico', path.prod);
     kopy(path.dev + 'assets/**/*.*', path.prod + 'assets/');
 });
 
 //-- Clean folder (delete export folder)
-gulp.task('clean:prod', function () {
+gulp.task('prod:clean', function () {
     return gulp.src('./export/', {
         read: false
     })
@@ -258,25 +258,25 @@ gulp.task('clean:prod', function () {
 /**
  * CLEAN TASK
  */
-gulp.task('clean', ['clean:dev', 'clean:prod']);
+gulp.task('clean', ['dev:clean', 'prod:clean']);
 
 /**
  * COPY TASK
  */
-gulp.task('copy:dev', ['copy:images', 'copy:icons', 'copy:videos', 'copy:audios', 'copy:bookend', 'copy:favicon']);
+gulp.task('dev:copy', ['images:copy', 'icons:copy', 'videos:copy', 'audios:copy', 'bookend:copy', 'favicon:copy']);
 
 /**
  * DEV TASK
  */
 gulp.task('dev', function (callback) {
-    sequence('clean:dev', 'copy:dev', 'partials', 'index')(callback)
+    sequence('dev:clean', 'dev:copy', 'partials', 'index')(callback)
 });
 
 /**
  * PROD TASK
  */
 gulp.task('prod', function (callback) {
-    sequence('clean:prod', 'copy:prod', 'urls')(callback)
+    sequence('prod:clean', 'prod:copy', 'urls')(callback)
 });
 
 /**

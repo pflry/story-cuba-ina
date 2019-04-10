@@ -2,16 +2,17 @@
     "tpl-page-cover": true,
     
     "headline": {
-        "left": "L'épopée",
-        "right": "du Concorde"
+        "left": "La Révolution",
+        "right": "cubaine"
     },
 
-    "credits": "Air France",
+    "credits": "Marcelo Montecino",
 
     "img": {
-        "alt": "Concorde",
-        "copy": "Air France",
+        "alt": "Fidel Castro speaking in Havana, 1978",
+        "copy": "Marcelo Montecino",
         "css": {
+            "zoom-in": false,
             "overlay-bottom": false,
             "overlay-top": false,
             "overlay-up-down": false,
