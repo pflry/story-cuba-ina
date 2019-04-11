@@ -1,34 +1,34 @@
 {
-    "page-id": "7",
+    "page-id": "14",
     "tpl-page-full": true,
 
-    "auto-advance": false,
-    "auto-advance-value": "",
+    "auto-advance": true,
+    "auto-advance-value": "cuba-KPCAA800508",
 
-    "credits": "Ina",
+    "credits": "TF1/Ina",
 
     "amp-img-background": true,
         "img": {
-            "name": "cuba-MGVDD620125-CUB-20",
-            "alt": "Fidel Castro",
-            "copy": "Ina",
+            "name": "",
+            "alt": "",
+            "copy": "",
             "css": {
                 "blur": false,
                 "blur-out": false,
                 "zoom-in": false,
-                "overlay-bottom": true,
+                "overlay-bottom": false,
                 "overlay-top": false,
                 "overlay-up-down": false,
                 "overlay-full": false,
                 "overlay-full-dark": false,
-                "overlay-full-light": false
+                "overlay-full-light": true
             }
         },
 
-    "amp-video-background": false,
+    "amp-video-background": true,
     "video": {
-        "id": "",
-        "folder": "",
+        "id": "cuba-KPCAA800508",
+        "folder": "cuba-KPCAA800508",
         "noaudio": false,
         "loop": false
     },
@@ -41,7 +41,7 @@
 
 
     "amp-bigtext": true,
-        "bigtext": "Août 1960",
+        "bigtext": "1980's",
 
     "amp-citation": false,
         "citation": "",
@@ -50,10 +50,10 @@
             "right": false
         },
 
-    "amp-contexte": true,
-        "contexte": "<strong>Fidel Castro</strong><br>durcit les relations<br>avec les <strong>Etats-Unis</strong>.",
+    "amp-contexte": false,
+        "contexte": "",
         "contexte-align": {
-            "left": false,
-            "right": true
+            "left": true,
+            "right": false
         }
 }

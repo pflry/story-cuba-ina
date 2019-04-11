@@ -1,5 +1,5 @@
 {
-    "page-id": "7",
+    "page-id": "13",
     "tpl-page-full": true,
 
     "auto-advance": false,
@@ -9,19 +9,19 @@
 
     "amp-img-background": true,
         "img": {
-            "name": "cuba-MGVDD620125-CUB-20",
-            "alt": "Fidel Castro",
+            "name": "cuba-KPCAA800508",
+            "alt": "Boat people",
             "copy": "Ina",
             "css": {
                 "blur": false,
                 "blur-out": false,
                 "zoom-in": false,
-                "overlay-bottom": true,
+                "overlay-bottom": false,
                 "overlay-top": false,
                 "overlay-up-down": false,
                 "overlay-full": false,
                 "overlay-full-dark": false,
-                "overlay-full-light": false
+                "overlay-full-light": true
             }
         },
 
@@ -41,7 +41,7 @@
 
 
     "amp-bigtext": true,
-        "bigtext": "Août 1960",
+        "bigtext": "1980's",
 
     "amp-citation": false,
         "citation": "",
@@ -51,9 +51,9 @@
         },
 
     "amp-contexte": true,
-        "contexte": "<strong>Fidel Castro</strong><br>durcit les relations<br>avec les <strong>Etats-Unis</strong>.",
+        "contexte": "Si Castro a permis une <strong>amélioration</strong> de l'alphabétisation ou des services de santé, plus d'<strong>un million de cubains</strong> ont quitté le pays depuis son arrivée au pouvoir.",
         "contexte-align": {
-            "left": false,
-            "right": true
+            "left": true,
+            "right": false
         }
 }

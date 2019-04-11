@@ -1,5 +1,5 @@
 {
-    "page-id": "7",
+    "page-id": "9",
     "tpl-page-full": true,
 
     "auto-advance": false,
@@ -9,17 +9,17 @@
 
     "amp-img-background": true,
         "img": {
-            "name": "cuba-MGVDD620125-CUB-20",
-            "alt": "Fidel Castro",
+            "name": "cuba-MGVDD610040-CUB-02",
+            "alt": "Raid aérien sur La Havane",
             "copy": "Ina",
             "css": {
                 "blur": false,
                 "blur-out": false,
                 "zoom-in": false,
-                "overlay-bottom": true,
+                "overlay-bottom": false,
                 "overlay-top": false,
                 "overlay-up-down": false,
-                "overlay-full": false,
+                "overlay-full": true,
                 "overlay-full-dark": false,
                 "overlay-full-light": false
             }
@@ -41,7 +41,7 @@
 
 
     "amp-bigtext": true,
-        "bigtext": "Août 1960",
+        "bigtext": "17 avril 1961",
 
     "amp-citation": false,
         "citation": "",
@@ -51,9 +51,9 @@
         },
 
     "amp-contexte": true,
-        "contexte": "<strong>Fidel Castro</strong><br>durcit les relations<br>avec les <strong>Etats-Unis</strong>.",
+        "contexte": "La <strong>rispote</strong> des Etats-Unis avec le débarquement<br>de la <strong>Baie des Cochons</strong><br>est un fiasco.",
         "contexte-align": {
-            "left": false,
-            "right": true
+            "left": true,
+            "right": false
         }
 }

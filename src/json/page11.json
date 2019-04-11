@@ -1,5 +1,5 @@
 {
-    "page-id": "7",
+    "page-id": "12",
     "tpl-page-full": true,
 
     "auto-advance": false,
@@ -9,19 +9,19 @@
 
     "amp-img-background": true,
         "img": {
-            "name": "cuba-MGVDD620125-CUB-20",
-            "alt": "Fidel Castro",
+            "name": "cuba-MGVDD620125-CUB-17",
+            "alt": "L'homme à abattre",
             "copy": "Ina",
             "css": {
                 "blur": false,
                 "blur-out": false,
                 "zoom-in": false,
-                "overlay-bottom": true,
+                "overlay-bottom": false,
                 "overlay-top": false,
                 "overlay-up-down": false,
                 "overlay-full": false,
                 "overlay-full-dark": false,
-                "overlay-full-light": false
+                "overlay-full-light": true
             }
         },
 
@@ -41,7 +41,7 @@
 
 
     "amp-bigtext": true,
-        "bigtext": "Août 1960",
+        "bigtext": "1960's - 1970's",
 
     "amp-citation": false,
         "citation": "",
@@ -51,7 +51,7 @@
         },
 
     "amp-contexte": true,
-        "contexte": "<strong>Fidel Castro</strong><br>durcit les relations<br>avec les <strong>Etats-Unis</strong>.",
+        "contexte": "<strong>Fidel Castro</strong> devient l'homme à abattre.<br>Les Etats-Unis nourrissent<br>les groupes anti-castristes.<br>Il aurait échappé à 683 tentatives d'assassinat.",
         "contexte-align": {
             "left": false,
             "right": true
