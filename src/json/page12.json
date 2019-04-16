@@ -18,10 +18,10 @@
                 "zoom-in": false,
                 "overlay-bottom": false,
                 "overlay-top": false,
-                "overlay-up-down": false,
+                "overlay-up-down": true,
                 "overlay-full": false,
                 "overlay-full-dark": false,
-                "overlay-full-light": true
+                "overlay-full-light": false
             }
         },
 
@@ -51,7 +51,7 @@
         },
 
     "amp-contexte": true,
-        "contexte": "Si Castro a permis une <strong>amélioration</strong> de l'alphabétisation ou des services de santé, plus d'<strong>un million de cubains</strong> ont quitté le pays depuis son arrivée au pouvoir.",
+        "contexte": "Depuis l'arrivée de Fidel Castro au pouvoir, plus<br>d'un <strong>million</strong> de cubains<br>ont <strong>quitté le pays</strong>.",
         "contexte-align": {
             "left": true,
             "right": false

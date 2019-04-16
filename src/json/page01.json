@@ -19,9 +19,9 @@
                 "overlay-bottom": false,
                 "overlay-top": false,
                 "overlay-up-down": false,
-                "overlay-full": true,
+                "overlay-full": false,
                 "overlay-full-dark": false,
-                "overlay-full-light": false
+                "overlay-full-light": true
             }
         },
 
@@ -51,7 +51,7 @@
         },
 
     "amp-contexte": true,
-        "contexte": "Le <strong>général Batista</strong><br>est à la tête de <strong>Cuba</strong>.<br><strong>Fidel Castro</strong> débarque<br>sur l'île avec 82 exilés,<br>dont <strong>Che Guevara</strong>.",
+        "contexte": "Le général <strong>Batista</strong><br>est à la tête de <strong>Cuba</strong>.",
         "contexte-align": {
             "left": false,
             "right": true

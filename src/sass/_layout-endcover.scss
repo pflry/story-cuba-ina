@@ -15,15 +15,19 @@
 /* content */
 #endcover .layer-content__inner {
     align-content: flex-end;
-    left: 50%;
+    left: 10%;
     padding: 1.5em 1.125em 3em 0;
 }
 
 .amp-endcover__content .amp-contexte--content {
-    font-size: 0.5em;
+    // font-size: 0.5em;
     font-weight: 300;
     padding-bottom: 0.25em;
     position: relative;
+
+    .title {
+        font-weight: 700;
+    }
 
     p {
         margin-top: 1em;
@@ -31,7 +35,7 @@
 
     .copyright {
         bottom: -2em;
-        font-size: 0.65em;
+        font-size: 0.65rem;
         position: absolute;
     }
 }

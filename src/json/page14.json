@@ -1,0 +1,59 @@
+{
+    "page-id": "15",
+    "tpl-page-full": true,
+
+    "auto-advance": false,
+    "auto-advance-value": "",
+
+    "credits": "Ina",
+
+    "amp-img-background": true,
+        "img": {
+            "name": "cuba-KPCAB950314",
+            "alt": "Cuba doit affronter de graves problèmes économiques",
+            "copy": "Ina",
+            "css": {
+                "blur": false,
+                "blur-out": false,
+                "zoom-in": false,
+                "overlay-bottom": false,
+                "overlay-top": false,
+                "overlay-up-down": false,
+                "overlay-full": false,
+                "overlay-full-dark": false,
+                "overlay-full-light": true
+            }
+        },
+
+    "amp-video-background": false,
+    "video": {
+        "id": "",
+        "folder": "",
+        "noaudio": false,
+        "loop": false
+    },
+
+    "amp-audio-background": false,
+        "audio": {
+            "id": "",
+            "folder": ""
+        },
+
+
+    "amp-bigtext": true,
+        "bigtext": "1991",
+
+    "amp-citation": false,
+        "citation": "",
+        "citation-align": {
+            "left": true,
+            "right": false
+        },
+
+    "amp-contexte": true,
+        "contexte": "Avec la <strong>dissolution soviétique</strong>, Cuba doit affronter de <strong>graves problèmes économiques</strong>.",
+        "contexte-align": {
+            "left": false,
+            "right": true
+        }
+}

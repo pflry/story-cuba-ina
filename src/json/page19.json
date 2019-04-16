@@ -1,0 +1,59 @@
+{
+    "page-id": "20",
+    "tpl-page-full": true,
+
+    "auto-advance": true,
+    "auto-advance-value": "cuba-KMCAB080107",
+
+    "credits": "F2/Ina",
+
+    "amp-img-background": false,
+        "img": {
+            "name": "",
+            "alt": "",
+            "copy": "",
+            "css": {
+                "blur": false,
+                "blur-out": false,
+                "zoom-in": false,
+                "overlay-bottom": false,
+                "overlay-top": false,
+                "overlay-up-down": false,
+                "overlay-full": false,
+                "overlay-full-dark": false,
+                "overlay-full-light": false
+            }
+        },
+
+    "amp-video-background": true,
+    "video": {
+        "id": "cuba-KMCAB080107",
+        "folder": "cuba-KMCAB080107",
+        "noaudio": false,
+        "loop": false
+    },
+
+    "amp-audio-background": false,
+        "audio": {
+            "id": "",
+            "folder": ""
+        },
+
+
+    "amp-bigtext": true,
+        "bigtext": "19 février 2008",
+
+    "amp-citation": false,
+        "citation": "",
+        "citation-align": {
+            "left": true,
+            "right": false
+        },
+
+    "amp-contexte": false,
+        "contexte": "",
+        "contexte-align": {
+            "left": true,
+            "right": false
+        }
+}

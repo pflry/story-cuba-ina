@@ -51,7 +51,7 @@
         },
 
     "amp-contexte": true,
-        "contexte": "<strong>Fidel Castro</strong> devient l'homme à abattre.<br>Les Etats-Unis nourrissent<br>les groupes anti-castristes.<br>Il aurait échappé à 683 tentatives d'assassinat.",
+        "contexte": "Fidel Castro devient <strong>l'homme à abattre</strong>.<br>Il aurait échappé à 683 tentatives d'assassinat.",
         "contexte-align": {
             "left": false,
             "right": true

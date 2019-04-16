@@ -1,0 +1,59 @@
+{
+    "page-id": "19",
+    "tpl-page-full": true,
+
+    "auto-advance": false,
+    "auto-advance-value": "",
+
+    "credits": "Ina",
+
+    "amp-img-background": true,
+        "img": {
+            "name": "cuba-FMVDC060652",
+            "alt": "Fidel Castro",
+            "copy": "Ina",
+            "css": {
+                "blur": false,
+                "blur-out": false,
+                "zoom-in": false,
+                "overlay-bottom": false,
+                "overlay-top": false,
+                "overlay-up-down": false,
+                "overlay-full": false,
+                "overlay-full-dark": false,
+                "overlay-full-light": true
+            }
+        },
+
+    "amp-video-background": false,
+    "video": {
+        "id": "",
+        "folder": "",
+        "noaudio": false,
+        "loop": false
+    },
+
+    "amp-audio-background": false,
+        "audio": {
+            "id": "",
+            "folder": ""
+        },
+
+
+    "amp-bigtext": true,
+        "bigtext": "19 février 2008",
+
+    "amp-citation": false,
+        "citation": "",
+        "citation-align": {
+            "left": true,
+            "right": false
+        },
+
+    "amp-contexte": true,
+        "contexte": "Fidel Castro se<br>retire <strong>officiellement</strong><br>de la vie politique",
+        "contexte-align": {
+            "left": true,
+            "right": false
+        }
+}

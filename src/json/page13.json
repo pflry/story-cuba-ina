@@ -7,7 +7,7 @@
 
     "credits": "TF1/Ina",
 
-    "amp-img-background": true,
+    "amp-img-background": false,
         "img": {
             "name": "",
             "alt": "",
@@ -21,7 +21,7 @@
                 "overlay-up-down": false,
                 "overlay-full": false,
                 "overlay-full-dark": false,
-                "overlay-full-light": true
+                "overlay-full-light": false
             }
         },
 

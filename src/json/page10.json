@@ -51,7 +51,7 @@
         },
 
     "amp-contexte": true,
-        "contexte": "<strong>Fidel Castro</strong> se définit désormais comme un <strong>marxiste-léniniste</strong><br> et instaure un régime<br>de <strong>parti unique</strong>.",
+        "contexte": "<strong>Fidel Castro</strong><br>le marxiste-léniniste,<br>instaure un régime<br>de <strong>parti unique</strong>.",
         "contexte-align": {
             "left": true,
             "right": false
