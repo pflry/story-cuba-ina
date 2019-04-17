@@ -9,11 +9,11 @@
 
     "amp-img-background": true,
         "img": {
-            "name": "cuba-MGVDD620125-CUB-12",
+            "name": "cuba-MGVDD620125-CUB-17",
             "alt": "Le parti unique",
             "copy": "Ina",
             "css": {
-                "blur": false,
+                "blur": true,
                 "blur-out": false,
                 "zoom-in": false,
                 "overlay-bottom": false,

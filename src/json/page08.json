@@ -51,7 +51,7 @@
         },
 
     "amp-contexte": true,
-        "contexte": "La <strong>rispote</strong> des Etats-Unis avec le débarquement<br>de la <strong>Baie des Cochons</strong><br>est un fiasco.",
+        "contexte": "La <strong>rispote</strong> des &Eacute;tats-Unis avec le débarquement<br>de la <strong>Baie des Cochons</strong><br>est un <strong>échec</strong>.",
         "contexte-align": {
             "left": true,
             "right": false

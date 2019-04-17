@@ -14,7 +14,7 @@
             "copy": "Ina",
             "css": {
                 "blur": false,
-                "blur-out": false,
+                "blur-out": true,
                 "zoom-in": false,
                 "overlay-bottom": false,
                 "overlay-top": false,

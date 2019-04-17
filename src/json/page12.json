@@ -18,8 +18,8 @@
                 "zoom-in": false,
                 "overlay-bottom": false,
                 "overlay-top": false,
-                "overlay-up-down": true,
-                "overlay-full": false,
+                "overlay-up-down": false,
+                "overlay-full": true,
                 "overlay-full-dark": false,
                 "overlay-full-light": false
             }

@@ -19,9 +19,9 @@
                 "overlay-bottom": false,
                 "overlay-top": false,
                 "overlay-up-down": false,
-                "overlay-full": false,
+                "overlay-full": true,
                 "overlay-full-dark": false,
-                "overlay-full-light": true
+                "overlay-full-light": false
             }
         },
 
@@ -51,7 +51,7 @@
         },
 
     "amp-contexte": true,
-        "contexte": "Fidel Castro devient <strong>l'homme à abattre</strong>.<br>Il aurait échappé à 683 tentatives d'assassinat.",
+        "contexte": "<strong>Fidel Castro</strong> devient <strong>l'homme à abattre</strong>.<br>Il aurait échappé à <strong>683 tentatives d'assassinat</strong>.",
         "contexte-align": {
             "left": false,
             "right": true

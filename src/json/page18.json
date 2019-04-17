@@ -19,9 +19,9 @@
                 "overlay-bottom": false,
                 "overlay-top": false,
                 "overlay-up-down": false,
-                "overlay-full": false,
+                "overlay-full": true,
                 "overlay-full-dark": false,
-                "overlay-full-light": true
+                "overlay-full-light": false
             }
         },
 

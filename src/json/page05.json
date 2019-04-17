@@ -15,7 +15,7 @@
             "css": {
                 "blur": false,
                 "blur-out": false,
-                "zoom-in": false,
+                "zoom-in": true,
                 "overlay-bottom": false,
                 "overlay-top": false,
                 "overlay-up-down": false,

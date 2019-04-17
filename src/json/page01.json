@@ -14,7 +14,7 @@
         "copy": "Ina",
             "css": {
                 "blur": false,
-                "blur-out": false,
+                "blur-out": true,
                 "zoom-in": false,
                 "overlay-bottom": false,
                 "overlay-top": false,
@@ -51,7 +51,7 @@
         },
 
     "amp-contexte": true,
-        "contexte": "Le général <strong>Batista</strong><br>est à la tête de <strong>Cuba</strong>.",
+        "contexte": "Le général <strong>Batista</strong><br>est à la <strong>tête de Cuba</strong>.",
         "contexte-align": {
             "left": false,
             "right": true
