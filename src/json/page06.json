@@ -1,5 +1,5 @@
 {
-    "page-id": "7",
+    "page-id": "6",
     "tpl-page-full": true,
 
     "auto-advance": false,
@@ -9,7 +9,7 @@
 
     "amp-img-background": true,
         "img": {
-            "name": "cuba-MGVDD620125-CUB-20",
+            "name": "cuba-MGAFE0095372--AQ",
             "alt": "Fidel Castro",
             "copy": "Ina",
             "css": {
@@ -20,7 +20,7 @@
                 "overlay-top": false,
                 "overlay-up-down": false,
                 "overlay-full": false,
-                "overlay-full-dark": false,
+                "overlay-full-dark": true,
                 "overlay-full-light": false
             }
         },

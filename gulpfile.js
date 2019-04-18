@@ -21,7 +21,7 @@ const gulp = require('gulp'),
 //-- Constantes
 const flag = 'story-cuba';
 const storyTitle = 'La Révolution cubaine';
-const absoluteURL = 'https://stories.pflry.eu/' + flag + '/';
+const absoluteURL = 'https://ina.pflry.eu/' + flag + '/';
 
 //-- Path
 const path = {

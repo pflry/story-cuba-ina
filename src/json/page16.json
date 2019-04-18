@@ -1,5 +1,5 @@
 {
-    "page-id": "17",
+    "page-id": "16",
     "tpl-page-full": true,
 
     "auto-advance": false,
@@ -9,16 +9,16 @@
 
     "amp-img-background": true,
         "img": {
-            "name": "cuba-MGCAA0130668--AM",
+            "name": "cuba-KMCAB040576",
             "alt": "Un record de longévité au pouvoir",
             "copy": "Ina",
             "css": {
-                "blur": false,
-                "blur-out": true,
+                "blur": true,
+                "blur-out": false,
                 "zoom-in": false,
                 "overlay-bottom": false,
                 "overlay-top": false,
-                "overlay-up-down": true,
+                "overlay-up-down": false,
                 "overlay-full": false,
                 "overlay-full-dark": false,
                 "overlay-full-light": false

@@ -8,7 +8,7 @@
         "css": {
             "overlay-full": false,
             "overlay-full-dark": false,
-            "overlay-full-light": true
+            "overlay-full-light": false
         }
     },
 

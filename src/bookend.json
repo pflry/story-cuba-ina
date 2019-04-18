@@ -4,12 +4,17 @@
         "email",
         {
             "provider": "twitter",
-            "text": "Barack Obama, son bilan en 10 dates"
+            "text": "La Révolution cubaine"
         },
         {
             "provider": "facebook",
             "app_id": "MY_FACEBOOK_APP_ID"
         }
     ],
-    "components": []
+    "components": [
+        {
+            "type": "heading",
+            "text": ""
+        }
+    ]
 }

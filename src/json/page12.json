@@ -1,5 +1,5 @@
 {
-    "page-id": "13",
+    "page-id": "12",
     "tpl-page-full": true,
 
     "auto-advance": false,
@@ -19,7 +19,7 @@
                 "overlay-bottom": false,
                 "overlay-top": false,
                 "overlay-up-down": false,
-                "overlay-full": true,
+                "overlay-full": false,
                 "overlay-full-dark": false,
                 "overlay-full-light": false
             }
