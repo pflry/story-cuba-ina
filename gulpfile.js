@@ -225,6 +225,15 @@ gulp.task('serve', () => {
     gulp.watch(path.dev + 'index.html').on('change', browserSync.reload);
 });
 
+gulp.task('serve:static', () => {
+    browserSync.init({
+        server: {
+            baseDir: path.dev
+        }
+    });
+
+    gulp.watch(path.dev + 'index.html').on('change', browserSync.reload);
+});
 
 
 //-- PRODUCTION
@@ -242,6 +251,7 @@ gulp.task('urls', function () {
 gulp.task('prod:copy', () => {
     kopy(path.dev + 'bookend.json', path.prod);
     kopy(path.dev + 'favicon.ico', path.prod);
+    kopy(path.dev + 'sw.js', path.prod);
     kopy(path.dev + 'assets/**/*.*', path.prod + 'assets/');
 });
 
