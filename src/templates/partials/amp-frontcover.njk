@@ -1,0 +1,49 @@
+{# amp-frontcover.njk #}
+<!-- front cover -->
+<amp-story-page id="cover" class="amp-story-page amp-story-page__full">
+  
+  <amp-story-grid-layer template="fill" class="layer-background">
+      <amp-img src="assets/poster/9x16.jpg"
+        width="0.56"
+        height="1"
+        alt="{{frontcover.background.image.alt}}"
+        attribution="{{frontcover.background.image.copy}}"
+        layout="fill"
+        class="amp-image__overlay {% if frontcover.background.image.css.overlay %}amp-image__overlay--{{frontcover.background.image.css.overlay}}{% endif %} {% if frontcover.background.image.css.zoom %}amp-image--zoom-in{% endif %} {% if frontcover.background.image.css.blur %}amp-image--blur{% endif %} {% if frontcover.background.image.css.blurout %}amp-image--blur-out{% endif %}"></amp-img>
+    </amp-img>
+  </amp-story-grid-layer>
+
+  <amp-story-grid-layer template="vertical" class="layer-content">
+    <div class="layer-content__inner">
+      <div class="amp-cover">
+        <div class="amp-cover__content">
+          <h1 class="amp-cover__headline">
+            <div class="headline-left">
+              <span class="headline-left--text">{{frontcover.content.headlineleft | safe}}</span>
+              <span class="headline-left--line"></span>
+            </div>
+            <div class="headline-right">
+              <span class="headline-right--text">{{frontcover.content.headlineright | safe}}</span>
+              <span class="headline-right--line"></span>
+            </div>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </amp-story-grid-layer>
+
+    <amp-story-grid-layer template="vertical" class="layer-foreground">
+        <div class="layer-foreground__inner">
+            <div class="amp-logo-holder">
+                <amp-img src="assets/logo/1x1.svg"
+                    width="50"
+                    height="50"
+                    class="logo-ina-cover">
+                </amp-img>
+            </div>
+            <div class="amp-page-credits">
+                <p>{{frontcover.foreground.credits}}</p>
+            </div>
+        </div>
+    </amp-story-grid-layer>
+</amp-story-page>

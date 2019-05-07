@@ -1,0 +1,12 @@
+{# index.njk #}
+{% set pagename = "index.html" %}
+
+{% extends "layout.njk" %}
+
+{% block content %}
+  {% include "partials/amp-frontcover.njk" %}
+  {% for card in cards %}
+    {% include "partials/amp-card.njk" %}
+  {% endfor %}
+  {% include "partials/amp-backcover.njk" %}
+{% endblock %}

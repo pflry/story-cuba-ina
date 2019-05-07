@@ -1,0 +1,13 @@
+{# amp-audio.njk #}
+<amp-video id="{{card.background.audio.name}}" autoplay
+  width="0.56"
+  height="1"
+  layout="fill"
+  poster="assets/audios/{{card.background.audio.name}}/poster.jpg">
+  <source type="audio/ogg" src="assets/audios/{{card.background.audio.name}}/audio.ogg">
+  <source type="audio/mpeg" src="assets/audios/{{card.background.audio.name}}/audio.mp3">
+  <track src="assets/audios/{{card.background.audio.name}}/subtitles.vtt" label="Français" kind="subtitles" srclang="fr" default>
+  <div fallback>
+      <p>Votre navigateur ne supporte pas ce format audio.</p>
+  </div>
+</amp-video>

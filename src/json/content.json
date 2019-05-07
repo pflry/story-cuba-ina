@@ -1,0 +1,378 @@
+{
+  "page": {
+    "title": "La Révolution cubaine",
+    "urlbase": "https://ina.pflry.eu/story-cuba/"
+  },
+  "frontcover": {
+    "background": {
+      "image": {
+        "alt": "Fidel Castro",
+        "copy": "Ina"
+      }
+    },
+    "content": {
+      "headlineleft": "La Révolution",
+      "headlineright": "cubaine"
+    },
+    "foreground": {
+      "credits": "Ina"
+    }
+  },
+  "backcover": {
+    "background": {
+      "image": {
+        "name": "endcover",
+        "alt": "La Révolution cubaine"
+      }
+    },
+    "content": {
+      "realisation": "Rédaction ina.fr",
+      "copyright": "2019 INA"
+    }
+  },
+  "cards": [
+    {
+      "id": 1,
+      "background": {
+        "image": {
+          "name": "cuba-MGCPB0032741--BM",
+          "alt": "Fulgencio Batista",
+          "copy": "Ina",
+          "css": {
+            "blurout": true,
+            "overlay": "full-light"
+          }
+        }
+      },
+      "content": {
+        "date": "Décembre 1956",
+        "contexte": "Le général <strong>Batista</strong><br>est à la <strong>tête de Cuba</strong>.",
+        "align": "right"
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 2,
+      "autoadvance": "cuba-MGAFE0066757--AL",
+      "background": {
+        "video": {
+          "name": "cuba-MGAFE0066757--AL"
+        }
+      },
+      "content": {
+        "date": "Décembre 1956"
+      },
+      "foreground": {
+        "credits": "Les Actualités françaises/Ina"
+      }
+    },
+    {
+      "id": 3,
+      "background": {
+        "image": {
+          "name": "cuba-MGAFE0004508--AP",
+          "alt": "Fidel Castro",
+          "copy": "Ina",
+          "css": {
+            "overlay": "full"
+          }
+        }
+      },
+      "content": {
+        "date": "1<sup>er</sup> janvier 1959",
+        "contexte": "La guérilla s'achève. Les <strong>barbus</strong> font leur entrée victorieuse à <strong>La Havane</strong>.."
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 4,
+      "autoadvance": "cuba-MGAFE0004508--AP",
+      "background": {
+        "video": {
+          "name": "cuba-MGAFE0004508--AP"
+        }
+      },
+      "content": {
+        "date": "1<sup>er</sup> janvier 1959"
+      },
+      "foreground": {
+        "credits": "Les Actualités françaises/Ina"
+      }
+    },
+    {
+      "id": 5,
+      "background": {
+        "image": {
+          "name": "cuba-MGVDD620125-CUB-20",
+          "alt": "Fidel Castro",
+          "copy": "Ina",
+          "css": {
+            "overlay": "full"
+          }
+        }
+      },
+      "content": {
+        "date": "1960's",
+        "contexte": "<strong>Fidel Castro</strong><br>prend goût au pouvoir,<br>les <strong>élections</strong> prévues<br>n'auront <strong>jamais lieu</strong>."
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 6,
+      "autoadvance": null,
+      "background": {
+        "image": {
+          "name": "cuba-MGAFE0095372--AQ",
+          "alt": "Fidel Castro",
+          "copy": "Ina",
+          "css": {
+            "overlay": "full-dark"
+          }
+        }
+      },
+      "content": {
+        "date": "Août 1960",
+        "contexte": "<strong>Fidel Castro</strong><br>durcit les relations<br>avec les <strong>Etats-Unis</strong>.",
+        "align": "right"
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 7,
+      "autoadvance": "cuba-MGAFE0095372--AQ",
+      "background": {
+        "video": {
+          "name": "cuba-MGAFE0095372--AQ"
+        }
+      },
+      "content": {
+        "date": "17 août 1960"
+      },
+      "foreground": {
+        "credits": "Les Actualités françaises/Ina"
+      }
+    },
+    {
+      "id": 8,
+      "background": {
+        "image": {
+          "name": "cuba-MGVDD610040-CUB-02",
+          "alt": "Raid aérien sur La Havane",
+          "copy": "Ina",
+          "css": {
+            "overlay": "full"
+          }
+        }
+      },
+      "content": {
+        "date": "17 avril 1961",
+        "contexte": "La <strong>rispote</strong> des &Eacute;tats-Unis avec le débarquement<br>de la <strong>Baie des Cochons</strong><br>est un <strong>échec</strong>."
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 9,
+      "autoadvance": "cuba-MGAFE0040261--AM",
+      "background": {
+        "video": {
+          "name": "cuba-MGAFE0040261--AM"
+        }
+      },
+      "content": {
+        "date": "17 avril 1961"
+      },
+      "foreground": {
+        "credits": "Les Actualités françaises/Ina"
+      }
+    },
+    {
+      "id": 10,
+      "background": {
+        "image": {
+          "name": "cuba-MGVDD620125-CUB-17",
+          "alt": "Le parti unique",
+          "copy": "Ina",
+          "css": {
+            "overlay": "full"
+          }
+        }
+      },
+      "content": {
+        "date": "Décembre 1961",
+        "contexte": "<strong>Fidel Castro</strong><br>le marxiste-léniniste,<br>instaure un régime<br>de <strong>parti unique</strong>."
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 11,
+      "background": {
+        "image": {
+          "name": "cuba-MGVDD620125-CUB-17",
+          "alt": "L'homme à abattre",
+          "copy": "Ina",
+          "css": {
+            "overlay": "full"
+          }
+        }
+      },
+      "content": {
+        "date": "1960's - 1970's",
+        "contexte": "<strong>Fidel Castro</strong> devient <strong>l'homme à abattre</strong>.<br>Il aurait échappé à <strong>683 tentatives d'assassinat</strong>.",
+        "align": "right"
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 12,
+      "background": {
+        "image": {
+          "name": "cuba-KPCAA800508",
+          "alt": "Boat people",
+          "copy": "Ina"
+        }
+      },
+      "content": {
+        "date": "1980's",
+        "contexte": "Depuis l'arrivée de Fidel Castro au pouvoir, plus<br>d'un <strong>million</strong> de cubains<br>ont <strong>quitté le pays</strong>."
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 13,
+      "autoadvance": "cuba-KPCAA800508",
+      "background": {
+        "video": {
+          "name": "cuba-KPCAA800508"
+        }
+      },
+      "content": {
+        "date": "1980's"
+      },
+      "foreground": {
+        "credits": "TF1/Ina"
+      }
+    },
+    {
+      "id": 14,
+      "background": {
+        "image": {
+          "name": "cuba-KPCAB950314",
+          "alt": "Cuba doit affronter de graves problèmes économiques",
+          "copy": "Ina",
+          "css": {
+            "overlay": "full-light"
+          }
+        }
+      },
+      "content": {
+        "date": 1991,
+        "contexte": "Avec la <strong>dissolution soviétique</strong>, Cuba doit affronter de <strong>graves problèmes économiques</strong>.",
+        "align": "right"
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 15,
+      "autoadvance": "cuba-KPCAB950314",
+      "background": {
+        "video": {
+          "name": "cuba-KPCAB950314"
+        }
+      },
+      "content": {
+        "date": "14 mars 1995"
+      },
+      "foreground": {
+        "credits": "F2/Ina"
+      }
+    },
+    {
+      "id": 16,
+      "background": {
+        "image": {
+          "name": "cuba-KMCAB040576",
+          "alt": "Un record de longévité au pouvoir",
+          "copy": "Ina",
+          "css": {
+            "blur": true
+          }
+        }
+      },
+      "content": {
+        "date": "2000's",
+        "contexte": "Fidel Castro au pouvoir,<br>un <strong>record de longévité</strong>."
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 17,
+      "autoadvance": "cuba-KMCAB040576",
+      "background": {
+        "video": {
+          "name": "cuba-KMCAB040576"
+        }
+      },
+      "content": {
+        "date": "21 octobre 2004"
+      },
+      "foreground": {
+        "credits": "F2/Ina"
+      }
+    },
+    {
+      "id": 18,
+      "background": {
+        "image": {
+          "name": "cuba-FMVDC060652",
+          "alt": "Fidel Castro",
+          "copy": "Ina",
+          "css": {
+            "overlay": "full-light"
+          }
+        }
+      },
+      "content": {
+        "date": "19 février 2008",
+        "contexte": "Fidel Castro se<br>retire <strong>officiellement</strong><br>de la vie politique."
+      },
+      "foreground": {
+        "credits": "Ina"
+      }
+    },
+    {
+      "id": 19,
+      "autoadvance": "cuba-KMCAB080107",
+      "background": {
+        "video": {
+          "name": "cuba-KMCAB080107"
+        }
+      },
+      "content": {
+        "date": "19 février 2008"
+      },
+      "foreground": {
+        "credits": "F2/Ina"
+      }
+    }
+  ]
+}

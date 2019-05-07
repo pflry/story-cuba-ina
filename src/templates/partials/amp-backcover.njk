@@ -1,0 +1,51 @@
+{# amp-backcover.njk #}
+<!-- back cover -->
+<amp-story-page id="endcover" class="amp-story-page amp-story-page__full">
+  <amp-story-grid-layer template="fill" class="layer-background">
+    <amp-img src="assets/images/{{backcover.background.image.name}}.webp"
+    id="backCoverImage"
+    width="0.56"
+    height="1"
+    alt="{{backcover.background.image.alt}}"
+    attribution="{{backcover.background.image.copy}}"
+    layout="fill"
+    class="amp-image__overlay {% if backcover.background.image.css.overlay %}amp-image__overlay--{{backcover.background.image.css.overlay}}{% endif %} {% if backcover.background.image.css.zoom %}amp-image--zoom-in{% endif %} {% if backcover.background.image.css.blur %}amp-image--blur{% endif %} {% if backcover.background.image.css.blurout %}amp-image--blur-out{% endif %}"> 
+      <amp-img src="assets/images/{{backcover.background.image.name}}.jpg"
+        fallback
+        width="0.56"
+        height="1"
+        alt="{{backcover.background.image.alt}}"
+        attribution="{{backcover.background.image.copy}}"
+        layout="fill"
+        class="amp-image__overlay {% if backcover.background.image.css.overlay %}amp-image__overlay--{{backcover.background.image.css.overlay}}{% endif %} {% if backcover.background.image.css.zoom %}amp-image--zoom-in{% endif %} {% if backcover.background.image.css.blur %}amp-image--blur{% endif %} {% if backcover.background.image.css.blurout %}amp-image--blur-out{% endif %}"></amp-img>
+    </amp-img>
+  </amp-story-grid-layer>
+
+  <amp-story-grid-layer template="vertical" class="layer-content">
+    <div class="layer-content__inner">
+      <div class="amp-endcover">
+        <div class="amp-endcover__content">
+          <div class="amp-contexte {{backcover.content.align}}">
+            <div class="amp-contexte--content">
+              <span class="title">{{page.title}}</span>
+                <p>{{backcover.content.realisation | safe}}</p>
+                <div class="copyright">&copy;{{backcover.content.copyright}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </amp-story-grid-layer>
+
+  <amp-story-grid-layer template="vertical" class="layer-foreground">
+    <div class="layer-foreground__inner">
+      <div class="amp-logo-holder">
+        <amp-img src="assets/logo/1x1.svg"
+          width="50"
+          height="50"
+          class="logo-ina-cover">
+        </amp-img>
+      </div>
+    </div>
+  </amp-story-grid-layer>
+</amp-story-page>

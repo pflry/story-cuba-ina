@@ -1,0 +1,38 @@
+{# amp-card.njk #}
+<!-- page #{{card.id}} -->
+<amp-story-page id="card_{{card.id}}" class="amp-story-page amp-story-page__full" {% if card.autoadvance %}auto-advance-after="{{card.autoadvance}}"{% endif %}>
+
+  <amp-story-grid-layer template="fill" class="layer-background">
+    {% if card.background.video.name %}{% include "partials/amp-video.njk" %}
+    {% elif card.background.audio.name %}{% include "partials/amp-audio.njk" %}
+    {% elif card.background.image.name %}{% include "partials/amp-image.njk" %}
+    {% else %}Veuillez choisir le média background !{% endif %}
+  </amp-story-grid-layer>
+
+  <amp-story-grid-layer template="vertical" class="layer-content">
+    <div class="layer-content__inner">
+      {% if card.content.date %}
+      <div class="amp-big-text">
+        <div class="amp-big-text--content">{{card.content.date | safe}}</div>
+      </div>
+      {% endif %}
+      {% if card.content.citation %}
+      <div class="amp-citation {{card.content.align}}">
+        <div class="amp-citation--content">{{card.content.citation | safe}}</div>
+      </div>
+      {% elif card.content.contexte %}
+      <div class="amp-contexte {{card.content.align}}">
+        <div class="amp-contexte--content">{{card.content.contexte | safe}}</div>
+      </div>
+      {% endif %}
+    </div>
+  </amp-story-grid-layer>
+
+  <amp-story-grid-layer template="vertical" class="layer-foreground">
+    <div class="layer-foreground__inner">
+      <div class="amp-page-credits">
+        <p>{{card.foreground.credits | safe}}</p>
+      </div>
+    </div>
+  </amp-story-grid-layer>
+</amp-story-page>

@@ -81,7 +81,7 @@ typings/
 .fusebox/
 
 # AMP story
-build/
+dev/
 medias-src/
 export/
 

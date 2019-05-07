@@ -1,0 +1,30 @@
+{# layout.njk #}
+<!doctype html>
+<html ⚡ lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{page.title}}</title>
+    <link rel="canonical" href="{{page.urlbase}}{{pagename}}">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    {% include "partials/amp-scripts.njk" %}
+    <style amp-custom>
+      {% include "partials/amp-styles.njk" %}
+    </style>
+  </head>
+  <body>
+    <amp-story standalone
+        title="{{page.title}}"
+        publisher="Institut national de l'audiovisuel"
+        publisher-logo-src="assets/logo/1x1.png"
+        poster-portrait-src="assets/poster/3x4.jpg"
+        poster-square-src="assets/poster/1x1.jpg"
+        poster-landscape-src="assets/poster/4x3.jpg">
+
+        {% block content %} {% endblock %}
+    
+        {# bookend.json #}
+        <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
+
+    </amp-story>
+  </body>
+</html>
