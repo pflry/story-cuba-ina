@@ -2,14 +2,21 @@
 <!-- front cover -->
 <amp-story-page id="cover" class="amp-story-page amp-story-page__full">
   
-  <amp-story-grid-layer template="fill" class="layer-background">
-      <amp-img src="assets/poster/9x16.jpg"
-        width="0.56"
-        height="1"
+  <amp-story-grid-layer template="fill" class="layer-background layer-overlay {% if frontcover.background.css.overlay %}layer-overlay--{{frontcover.background.css.overlay}}{% endif %} {% if frontcover.background.css.zoom %}layer-zoom-in{% endif %} {% if frontcover.background.css.blur %}layer-blur{% endif %} {% if frontcover.background.css.blurout %}layer-blur-out{% endif %}">
+    <amp-img src="assets/poster/2x3.webp"
+    id="frontCoverImage"
+    width="2"
+    height="3"
+    alt="{{frontcover.background.image.alt}}"
+    attribution="{{frontcover.background.image.copy}}"
+    layout="fill"> 
+      <amp-img src="assets/poster/2x3.jpg"
+        fallback
+        width="2"
+        height="3"
         alt="{{frontcover.background.image.alt}}"
         attribution="{{frontcover.background.image.copy}}"
-        layout="fill"
-        class="amp-image__overlay {% if frontcover.background.image.css.overlay %}amp-image__overlay--{{frontcover.background.image.css.overlay}}{% endif %} {% if frontcover.background.image.css.zoom %}amp-image--zoom-in{% endif %} {% if frontcover.background.image.css.blur %}amp-image--blur{% endif %} {% if frontcover.background.image.css.blurout %}amp-image--blur-out{% endif %}"></amp-img>
+        layout="fill"></amp-img>
     </amp-img>
   </amp-story-grid-layer>
 

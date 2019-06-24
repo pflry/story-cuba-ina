@@ -1,23 +1,21 @@
 {# amp-backcover.njk #}
 <!-- back cover -->
 <amp-story-page id="endcover" class="amp-story-page amp-story-page__full">
-  <amp-story-grid-layer template="fill" class="layer-background">
+  <amp-story-grid-layer template="fill" class="layer-background layer-overlay {% if backcover.background.css.overlay %}layer-overlay--{{backcover.background.css.overlay}}{% endif %} {% if backcover.background.css.zoom %}layer-zoom-in{% endif %} {% if backcover.background.css.blur %}layer-blur{% endif %} {% if backcover.background.css.blurout %}layer-blur-out{% endif %}">
     <amp-img src="assets/images/{{backcover.background.image.name}}.webp"
     id="backCoverImage"
-    width="0.56"
-    height="1"
+    width="2"
+    height="3"
     alt="{{backcover.background.image.alt}}"
     attribution="{{backcover.background.image.copy}}"
-    layout="fill"
-    class="amp-image__overlay {% if backcover.background.image.css.overlay %}amp-image__overlay--{{backcover.background.image.css.overlay}}{% endif %} {% if backcover.background.image.css.zoom %}amp-image--zoom-in{% endif %} {% if backcover.background.image.css.blur %}amp-image--blur{% endif %} {% if backcover.background.image.css.blurout %}amp-image--blur-out{% endif %}"> 
+    layout="fill"> 
       <amp-img src="assets/images/{{backcover.background.image.name}}.jpg"
         fallback
-        width="0.56"
-        height="1"
+        width="2"
+        height="3"
         alt="{{backcover.background.image.alt}}"
         attribution="{{backcover.background.image.copy}}"
-        layout="fill"
-        class="amp-image__overlay {% if backcover.background.image.css.overlay %}amp-image__overlay--{{backcover.background.image.css.overlay}}{% endif %} {% if backcover.background.image.css.zoom %}amp-image--zoom-in{% endif %} {% if backcover.background.image.css.blur %}amp-image--blur{% endif %} {% if backcover.background.image.css.blurout %}amp-image--blur-out{% endif %}"></amp-img>
+        layout="fill"></amp-img>
     </amp-img>
   </amp-story-grid-layer>
 
@@ -27,7 +25,7 @@
         <div class="amp-endcover__content">
           <div class="amp-contexte {{backcover.content.align}}">
             <div class="amp-contexte--content">
-              <span class="title">{{page.title}}</span>
+              <span class="title">{{backcover.content.title | safe}}</span>
                 <p>{{backcover.content.realisation | safe}}</p>
                 <div class="copyright">&copy;{{backcover.content.copyright}}</div>
             </div>

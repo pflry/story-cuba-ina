@@ -3,32 +3,54 @@
 // --------------------------------------------------
 
 amp-story {
-    color: $color-text;
-    font-family: $font-family-base;
+  color: $color-text;
+  font-family: $font-family-base;
 }
 
 amp-story-page {
-    background-color: $color-background;
-    font-size: $font-size-base;
-    line-height: $line-height-base;
+  background-color: $color-background;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
 }
 
 amp-story-grid-layer {
-    &.bottom {
-        align-content: end;
-    }
+  &.bottom {
+    align-content: end;
+  }
 
-    &.noedge {
-        padding: 0;
-    }
+  &.noedge {
+    padding: 0;
+  }
 
-    &.center-text {
-        align-content: center;
-    }
+  &.center-text {
+    align-content: center;
+  }
 }
 
 .backdrop {
-    @extend %pos-absolute;
-    background-color: $color-background;
-    z-index: 0;
+  @extend %pos-absolute;
+  background-color: $color-background;
+  z-index: 0;
+}
+
+video {
+  object-fit: initial;
+}
+
+//-- Utilities
+.justify-center {
+  text-align: center;
+}
+
+.justify-left {
+  text-align: left;
+}
+
+.d-none {
+  display: none;
+}
+
+b,
+strong {
+  font-weight: 900;
 }

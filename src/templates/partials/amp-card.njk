@@ -2,7 +2,7 @@
 <!-- page #{{card.id}} -->
 <amp-story-page id="card_{{card.id}}" class="amp-story-page amp-story-page__full" {% if card.autoadvance %}auto-advance-after="{{card.autoadvance}}"{% endif %}>
 
-  <amp-story-grid-layer template="fill" class="layer-background">
+  <amp-story-grid-layer template="fill" class="layer-background layer-overlay {% if card.background.css.overlay %}layer-overlay--{{card.background.css.overlay}}{% endif %} {% if card.background.css.zoom %}layer-zoom-in{% endif %} {% if card.background.css.blur %}layer-blur{% endif %} {% if card.background.css.blurout %}layer-blur-out{% endif %}">
     {% if card.background.video.name %}{% include "partials/amp-video.njk" %}
     {% elif card.background.audio.name %}{% include "partials/amp-audio.njk" %}
     {% elif card.background.image.name %}{% include "partials/amp-image.njk" %}
@@ -23,6 +23,10 @@
       {% elif card.content.contexte %}
       <div class="amp-contexte {{card.content.align}}">
         <div class="amp-contexte--content">{{card.content.contexte | safe}}</div>
+      </div>
+      {% elif card.content.subtitle %}
+      <div class="amp-subtitle">
+        <p class="amp-subtitle--content">{{card.content.subtitle | safe}}</p>
       </div>
       {% endif %}
     </div>

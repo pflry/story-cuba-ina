@@ -1,17 +1,15 @@
 {# amp-image.njk #}
 <amp-img src="assets/images/{{card.background.image.name | safe}}.webp"
-  width="0.56"
-  height="1"
+  width="2"
+  height="3"
   alt="{{card.background.image.alt}}"
   attribution="{{card.background.image.copy}}"
-  layout="fill"
-  class="amp-image__overlay {% if card.background.image.css.overlay %}amp-image__overlay--{{card.background.image.css.overlay}}{% endif %} {% if card.background.image.css.zoom %}amp-image--zoom-in{% endif %} {% if card.background.image.css.blur %}amp-image--blur{% endif %} {% if card.background.image.css.blurout %}amp-image--blur-out{% endif %}"> 
+  layout="fill"> 
   <amp-img src="assets/images/{{card.background.image.name | safe}}.jpg"
     fallback
-    width="0.56"
-    height="1"
+    width="2"
+    height="3"
     alt="{{card.background.image.alt}}"
     attribution="{{card.background.image.copy}}"
-    layout="fill"
-    class="amp-image__overlay {% if card.background.image.css.overlay %}amp-image__overlay--{{card.background.image.css.overlay}}{% endif %} {% if card.background.image.css.zoom %}amp-image--zoom-in{% endif %} {% if card.background.image.css.blur %}amp-image--blur{% endif %} {% if card.background.image.css.blurout %}amp-image--blur-out{% endif %}"></amp-img>
+    layout="fill"></amp-img>
 </amp-img>

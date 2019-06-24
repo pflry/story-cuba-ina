@@ -1,0 +1,192 @@
+{
+  "page": {
+    "title": "La Révolution cubaine",
+    "urlbase": "https://ina.pflry.eu/story-cuba/"
+  },
+  "frontcover": {
+    "background": {
+      "image": {
+        "alt": "Fidel Castro",
+        "copy": "Ina"
+      },
+      "css": {
+        "overlay": "full-light"
+      }
+    },
+    "content": {
+      "headlineleft": "La Révolution",
+      "headlineright": "cubaine"
+    },
+    "foreground": {
+      "credits": "Ina"
+    }
+  },
+  "backcover": {
+    "background": {
+      "image": {
+        "name": "FMVDD0045795--AW",
+        "alt": "La Révolution cubaine",
+        "copy": "Ina"
+      },
+      "css": {
+        "overlay": "full-dark"
+      }
+    },
+    "content": {
+      "title": "La Révolution cubaine",
+      "realisation": "Rédaction ina.fr",
+      "copyright": "2019 INA"
+    }
+  },
+  "cards": [
+    {
+      "id": 1,
+      "autoadvance": "MGAFE0066757--AL.01",
+      "background": {
+        "video": {
+          "name": "MGAFE0066757--AL.01"
+        }
+      },
+      "content": {
+        "date": "Décembre 1956",
+        "subtitle": "<strong>Fidel Castro</strong>, opposant au général Batista, débarque à Cuba avec 82 autres exilés, dont <strong>Che Guevara</strong>."
+      },
+      "foreground": {
+        "credits": "Les Actualités françaises"
+      }
+    },
+    {
+      "id": 2,
+      "autoadvance": "MGAFE0004508--AP.01",
+      "background": {
+        "video": {
+          "name": "MGAFE0004508--AP.01"
+        }
+      },
+      "content": {
+        "date": "1<sup>er</sup> janvier 1959",
+        "subtitle": "La guérilla s'achève. Les <strong>barbus</strong> font leur entrée victorieuse à <strong>La Havane</strong>."
+      },
+      "foreground": {
+        "credits": "Les Actualités françaises"
+      }
+    },
+    {
+      "id": 3,
+      "autoadvance": "MGAFE0095372--AQ.01",
+      "background": {
+        "video": {
+          "name": "MGAFE0095372--AQ.01"
+        }
+      },
+      "content": {
+        "date": "Août 1960",
+        "subtitle": "<strong>Fidel Castro</strong><br>durcit les relations<br>avec les <strong>Etats-Unis</strong>."
+      },
+      "foreground": {
+        "credits": "Les Actualités françaises"
+      }
+    },
+    {
+      "id": 4,
+      "autoadvance": "MGAFE0040261--AM.01",
+      "background": {
+        "video": {
+          "name": "MGAFE0040261--AM.01"
+        }
+      },
+      "content": {
+        "date": "17 avril 1961",
+        "subtitle": "La <strong>rispote</strong> des &Eacute;tats-Unis avec le débarquement<br>de la <strong>Baie des Cochons</strong><br>est un <strong>échec</strong>."
+      },
+      "foreground": {
+        "credits": "Les Actualités Françaises"
+      }
+    },
+    {
+      "id": 5,
+      "autoadvance": "7s",
+      "background": {
+        "image": {
+          "name": "MGVDD620125-CUB",
+          "alt": "L'homme à abattre",
+          "copy": "ICAIC"
+        },
+        "css": {
+          "overlay": "full-light"
+        }
+      },
+      "content": {
+        "date": "1960's - 1970's",
+        "contexte": "<strong>Fidel Castro</strong> devient <strong>l'homme à abattre</strong>.<br>Il aurait échappé à <strong>683 tentatives d'assassinat</strong>."
+      },
+      "foreground": {
+        "credits": "ICAIC"
+      }
+    },
+    {
+      "id": 6,
+      "autoadvance": "KPCAA800508.01",
+      "background": {
+        "video": {
+          "name": "KPCAA800508.01"
+        }
+      },
+      "content": {
+        "date": "1980's",
+        "subtitle": "Depuis l'arrivée de Fidel Castro au pouvoir, plus<br>d'un <strong>million</strong> de cubains<br>ont <strong>quitté le pays</strong>."
+      },
+      "foreground": {
+        "credits": "TF1"
+      }
+    },
+    {
+      "id": 7,
+      "autoadvance": "KPCAB950314.01",
+      "background": {
+        "video": {
+          "name": "KPCAB950314.01"
+        }
+      },
+      "content": {
+        "date": 1991,
+        "subtitle": "Avec la <strong>dissolution soviétique</strong>, Cuba doit affronter de <strong>graves problèmes économiques</strong>."
+      },
+      "foreground": {
+        "credits": "A2/France 2"
+      }
+    },
+    {
+      "id": 8,
+      "autoadvance": "KMCAB040576.01",
+      "background": {
+        "video": {
+          "name": "KMCAB040576.01"
+        }
+      },
+      "content": {
+        "date": "21 octobre 2004",
+        "subtitle": "Fidel Castro au pouvoir,<br>un <strong>record de longévité</strong>."
+      },
+      "foreground": {
+        "credits": "A2/France 2"
+      }
+    },
+    {
+      "id": 9,
+      "autoadvance": "FMVDC060652.01",
+      "background": {
+        "video": {
+          "name": "FMVDC060652.01"
+        }
+      },
+      "content": {
+        "date": "19 février 2008",
+        "subtitle": "Fidel Castro se<br>retire <strong>officiellement</strong><br>de la vie politique."
+      },
+      "foreground": {
+        "credits": "A2/France 2"
+      }
+    }
+  ]
+}

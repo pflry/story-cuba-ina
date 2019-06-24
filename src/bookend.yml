@@ -3,7 +3,7 @@ bookendVersion: v1.0
 shareProviders:
 - email
 - provider: twitter
-  text: La Révolution cubaine
+  text: Brexit, to be or not to be... Européens
 - provider: facebook
   app_id: MY_FACEBOOK_APP_ID
 components:

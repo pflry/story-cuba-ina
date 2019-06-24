@@ -14,7 +14,7 @@ const webp = require('gulp-webp');
 const yaml = require('gulp-yaml');
 
 //-- Constantes
-const folder = 'story-brexit';
+const folder = 'story-cuba';
 const absoluteUrl = 'https://ina.pflry.eu/' + folder + '/';
 
 //-- Path
@@ -46,7 +46,7 @@ exports.css = css;
 function yml_content() {
   return src(path.src + 'content.yml', { since: lastRun(yml_content) })
     .pipe(yaml({ space: 2 }))
-    .pipe(dest(path.src + 'json/'));
+    .pipe(dest(path.src));
 }
 
 function yml_bookend() {
@@ -65,7 +65,7 @@ exports.yml = yml;
 function njk() {
   return src(path.src + 'templates/pages/*.njk', { since: lastRun(njk) })
     .pipe(data(function () {
-      return require('./' + path.src + 'json/content.json')
+      return require('./' + path.src + 'content.json')
     }))
     .pipe(nunjucksRender({
       path: [path.src + 'templates']
@@ -83,6 +83,16 @@ function image_webp() {
       method: 6
     }))
     .pipe(dest(path.dev + 'assets/images/'))
+}
+
+function poster_webp() {
+  return src(path.src + 'assets/poster/*.jpg', { since: lastRun(poster_webp) })
+    .pipe(webp({
+      quality: 60,
+      preset: 'photo',
+      method: 6
+    }))
+    .pipe(dest(path.dev + 'assets/poster/'))
 }
 
 //-- Jpeg
@@ -180,7 +190,8 @@ const copy = parallel(
   series(
     image_jpg,
     image_webp,
-    poster_jpg
+    poster_jpg,
+    poster_webp
   )
 );
 exports.copy = copy;
