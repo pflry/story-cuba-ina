@@ -43,22 +43,11 @@ function css() {
 exports.css = css;
 
 //-- YAML
-function yml_content() {
-  return src(path.src + 'content.yml', { since: lastRun(yml_content) })
+function yml() {
+  return src(path.src + 'content.yml', { since: lastRun(yml) })
     .pipe(yaml({ space: 2 }))
     .pipe(dest(path.src));
 }
-
-function yml_bookend() {
-  return src(path.src + 'bookend.yml', { since: lastRun(yml_bookend) })
-    .pipe(yaml({ space: 2 }))
-    .pipe(dest(path.dev));
-}
-
-const yml = parallel(
-  yml_content,
-  yml_bookend  
-);
 exports.yml = yml;
 
 //-- Nunjucks
@@ -159,7 +148,6 @@ function serve(done) {
 function  prod_url() {
   return src(path.dev + '/index.html', { since: lastRun(prod_url) })
     .pipe(replace(/assets/g, '' + absoluteUrl + 'assets'))
-    .pipe(replace('src="bookend.json"', 'src="' + absoluteUrl + 'bookend.json"'))
     .pipe(dest(path.prod));
 }
 
@@ -171,7 +159,6 @@ function prod_asset() {
 
 function prod_file() {
   return src([
-    path.dev + 'bookend.json',
     path.dev + 'favicon.ico'
   ], { since: lastRun(prod_file) })
   .pipe(dest(path.prod))

@@ -17,6 +17,11 @@
   align-content: flex-end;
   left: 10%;
   padding: 1.5em 1.125em 3em 0;
+
+  [orientation='landscape'] & {
+    padding: 1.5em 0.75em 2em 0;
+    left: calc(50% - 25px);
+  }
 }
 
 .amp-endcover__content .amp-contexte--content {
@@ -29,12 +34,13 @@
   }
 
   p {
-    margin-top: 1em;
+    font-size: 16px;
+    margin-top: 8px;
   }
 
   .copyright {
-    bottom: -2em;
-    font-size: 0.65rem;
+    bottom: -24px;
+    font-size: 12px;
     position: absolute;
   }
 }

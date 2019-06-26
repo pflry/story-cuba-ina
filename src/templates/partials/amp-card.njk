@@ -12,8 +12,8 @@
   <amp-story-grid-layer template="vertical" class="layer-content">
     <div class="layer-content__inner">
       {% if card.content.date %}
-      <div class="amp-big-text">
-        <div class="amp-big-text--content">{{card.content.date | safe}}</div>
+      <div class="amp-date">
+        <div class="amp-date--content">{{card.content.date | safe}}</div>
       </div>
       {% endif %}
       {% if card.content.citation %}

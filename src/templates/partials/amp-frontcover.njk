@@ -3,16 +3,18 @@
 <amp-story-page id="cover" class="amp-story-page amp-story-page__full">
   
   <amp-story-grid-layer template="fill" class="layer-background layer-overlay {% if frontcover.background.css.overlay %}layer-overlay--{{frontcover.background.css.overlay}}{% endif %} {% if frontcover.background.css.zoom %}layer-zoom-in{% endif %} {% if frontcover.background.css.blur %}layer-blur{% endif %} {% if frontcover.background.css.blurout %}layer-blur-out{% endif %}">
-    <amp-img src="assets/poster/2x3.webp"
+    <amp-img src="assets/poster/4x3.webp"
+    object-position="{{frontcover.background.xpos}} {{frontcover.background.ypos}}"
     id="frontCoverImage"
-    width="2"
+    width="4"
     height="3"
     alt="{{frontcover.background.image.alt}}"
     attribution="{{frontcover.background.image.copy}}"
     layout="fill"> 
-      <amp-img src="assets/poster/2x3.jpg"
+      <amp-img src="assets/poster/4x3.jpg"
+        object-position="{{frontcover.background.xpos}} {{frontcover.background.ypos}}"
         fallback
-        width="2"
+        width="4"
         height="3"
         alt="{{frontcover.background.image.alt}}"
         attribution="{{frontcover.background.image.copy}}"

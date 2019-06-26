@@ -30,7 +30,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/paul_fleury/story-cuba#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.5",
+    "browser-sync": "^2.26.7",
     "del": "^4.1.0",
     "ftp-deploy": "^2.3.3",
     "gulp": "^4.0.1",
@@ -45,5 +45,9 @@
     "gulp-yaml": "^2.0.3",
     "imagemin-mozjpeg": "^8.0.0",
     "promise-ftp-common": "^1.1.5"
+  },
+  "dependencies": {
+    "node-gyp": "^5.0.1",
+    "node-sass": "^4.12.0"
   }
 }

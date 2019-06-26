@@ -26,7 +26,7 @@ ffmpeg -i ${source} -c:v libx264 -crf 23 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -pi
 echo
 ffmpeg -i ${source} -f webm -c:v libvpx-vp9 -minrate: 375k -maxrate: 1088k -b:v 750k -crf 23 -pix_fmt yuv420p -threads 8 -speed 4 -vf scale=iw:ih -acodec libopus -b:a 64k ${target}/video.webm
 echo
-ffmpeg -i ${source} -vf "thumbnail,scale=480:720" -qscale:v 4 -frames:v 1 ${target}/poster.jpg
+ffmpeg -i ${source} -vf "thumbnail,scale=704:576" -qscale:v 4 -frames:v 1 ${target}/poster.jpg
 
 #echo
 #printf "WEBVTT\n\n00:01.000 --> 00:02.680 line:-6 position:5%% size:90%% align:start\nLorem <c.exergue>ipsum</c>" > ${target}/subtitles.vtt

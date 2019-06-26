@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 //-- Date
-.amp-big-text--content {
+.amp-date--content {
   border-bottom: solid 2px $color-border;
   display: inline-block;
   font-size: $font-size-base;
@@ -86,7 +86,7 @@
   p {
     color: $white;
     flex-grow: 1;
-    font-size: 0.75rem;
+    font-size: 12px;
     margin-right: -0.75em;
     text-shadow: 1px 1px $black;
   }
@@ -98,3 +98,4 @@
     margin-right: 0.25em
   }
 }
+

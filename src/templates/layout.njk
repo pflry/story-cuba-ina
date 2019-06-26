@@ -12,7 +12,7 @@
     </style>
   </head>
   <body>
-    <amp-story standalone
+    <amp-story standalone supports-landscape
         title="{{page.title}}"
         publisher="Institut national de l'audiovisuel"
         publisher-logo-src="assets/logo/1x1.png"
@@ -23,7 +23,30 @@
         {% block content %} {% endblock %}
     
         {# bookend.json #}
-        <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
+        <amp-story-bookend layout=nodisplay>
+          <script type="application/json">
+            {
+              "bookendVersion": "v1.0",
+              "shareProviders": [
+                "email",
+                {
+                  "provider": "twitter",
+                  "text": "{{page.title}}"
+                },
+                {
+                  "provider": "facebook",
+                  "app_id": "MY_FACEBOOK_APP_ID"
+                }
+              ],
+              "components": [
+                {
+                  "type": "heading",
+                  "text": ""
+                }
+              ]
+            }
+          </script>
+        </amp-story-bookend>
 
     </amp-story>
   </body>
